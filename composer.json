@@ -1,7 +1,7 @@
 {
     "name": "applebiter/xiphsound",
-    "description": "Webapp for browsing and managing locally stored music collection."
-    "homepage": "https://xiphsound.applebiter.com/",
+    "description": "CakePHP 4-based web application uses common, FOSS command-line tools for management of Ogg and FLAC audio files",
+    "homepage": "https://github.com/applebiter/xiphsound",
     "type": "project",
     "license": "MIT",
     "require": {
