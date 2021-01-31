@@ -1,7 +1,7 @@
 {
-    "name": "cakephp/app",
-    "description": "CakePHP skeleton app",
-    "homepage": "https://cakephp.org",
+    "name": "applebiter/xiphsound",
+    "description": "Webapp for browsing and managing locally stored music collection."
+    "homepage": "https://xiphsound.applebiter.com/",
     "type": "project",
     "license": "MIT",
     "require": {
