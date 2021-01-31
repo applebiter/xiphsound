@@ -49,5 +49,16 @@ class AppController extends Controller
          * see https://book.cakephp.org/4/en/controllers/components/form-protection.html
          */
         //$this->loadComponent('FormProtection');
+        
+        $markfile = Configure::read('Xiphsound.ThemeMarker');
+        $theme = file_get_contents($markfile);
+        $theme = $theme ? trim($theme) : $theme;
+        
+        if (!$theme) 
+        {
+            $theme = Configure::read('Xiphsound.DefaultTheme');
+        }
+        
+        $this->set('theme', $theme);
     }
 }
