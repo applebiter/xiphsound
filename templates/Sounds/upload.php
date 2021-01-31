@@ -128,13 +128,6 @@
           the upper limits on the size of POST data and the size of uploaded 
           files, as well as the number of files that can be uploaded at once. 
         </p> 
-        <p> 
-          Sound files can be quite large, and this feature is going to be 
-          limited by the PHP configuration settings on your host machine. The 
-          most important configuration settings for the file upload feature are 
-          the upper limits on the size of POST data and the size of uploaded 
-          files, as well as the number of files that can be uploaded at once. 
-        </p> 
       </div>
     </div>
 </div>
